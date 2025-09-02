@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>piggyproject</title>
+    <link rel="stylesheet" href="./piggy.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/63dd4c12f7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light head fixed-top">
+        <div class="container-fluid okay">
+          <a class="navbar-brand" href="#">
+            <div>
+              <img src="./multimedia/logo.svg" alt="logo" />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Save
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <div class="dropflex">
+                    <div class="item-left">
+                      <li class="hos">
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col1">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/armor.png"
+                                alt="armor"
+                                width="50px"
+                              />
+                            </div>
+                            <div class="arm2">
+                              <p class="bld bl1">Piggybank</p>
+                              <p class="sml">Automated Savings</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col2">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/circle.png"
+                                alt=""
+                                width="50px"
+                              />
+                            </div>
+                            <div class="">
+                              <p class="bld bl2">Target Savings</p>
+                              <p class="sml">Goal Oriented Savings</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col3">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/dollar.png"
+                                alt="$"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="bld bl3">Flex Dollar</p>
+                              <p class="sml">Dollar Savings</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+
+                    <div class="item-right">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col4">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/lock.png"
+                                alt="lock"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="bld bl4">Safelock</p>
+                              <p class="sml">Fixed Savings</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col5">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/wallet.png"
+                                alt="wallet"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="bld bl5">Flex Naira</p>
+                              <p class="sml">Flexible Savings</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col6">
+                            <div class="img-down">
+                              <img
+                                class="pix"
+                                src="./multimedia/Screenshot 2025-08-26 at 21.42.25.png"
+                                alt="house"
+                                width="54px"
+                              />
+                            </div>
+                            <div>
+                              <p class="bld bl6">House Warning</p>
+                              <p class="sml">Semi-Strict wallet</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Invest</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Stories</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <div class="dropflex">
+                    <div class="item-left">
+                      <li class="hos">
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col1 res1">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/blog.svg"
+                                alt="armor"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="Res">Blog</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col2 res2">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/file3.svg"
+                                alt=""
+                                width="50px"
+                              />
+                            </div>
+                            <div class="">
+                              <p class="Res">Comics</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col3 res3">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/file5.svg"
+                                alt="$"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="Res">Newsletter</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+
+                    <div class="item-right">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col4 res4">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/file3.svg"
+                                alt="lock"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="Res">Report</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col5 res5">
+                            <div class="img-down">
+                              <img
+                                src="./multimedia/calculator.svg"
+                                alt="wallet"
+                                width="50px"
+                              />
+                            </div>
+                            <div>
+                              <p class="Res">Calculator</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <div class="dropflex col6 res2">
+                            <div class="img-down">
+                              <img
+                                class="pix"
+                                src="./multimedia/file6.svg"
+                                alt="book"
+                                width="54px"
+                              />
+                            </div>
+                            <div>
+                              <p class="Res">Ebook</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex place ">
+              <div class="ojb">
+                <button class="btn btn-outline-success lst " type="submit">
+                  Sign in
+                </button>
+              </div>
+              <div class="ojx">
+                <button class="btn btn-outline-success bxy1" type="submit">
+                  Create free Account
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="sec">
+      <div class="sec2">
+        <div class="sec3">
+          <button class="box" type="button">
+            <img class="rotate" src="./multimedia/download.svg" alt="" />
+            <span class="left">The 2024 PiggyVest Savings Report</span
+            ><i class="fa-solid fa-chevron-right arrow"></i>
+          </button>
+          <div class="sec-lay1">
+            <h1 class="sec-line1">The Better Way to</h1>
+            <h1 class="sec-line1">Save & Interest</h1>
+            <div class="sec-lay2">
+              <p>Piggyvest helps over 5 million customers</p>
+              <p>achieve their financial goals by helping</p>
+              <p>them save and invest with ease.</p>
+            </div>
+
+            <div class="sec-btn">
+              <button class="sec-btn5 vyp" type="button">
+                <img
+                  class="sec-btn-img"
+                  src="./multimedia/whiteAppleLogo.svg"
+                  alt=""
+                  width="20px"
+                />
+                Get on iPhone
+              </button>
+              <button class="sec-btn5 go vyp" type="button">
+                <img
+                  class="sec-btn-img"
+                  src="./multimedia/google-icon.svg"
+                  alt=""
+                />
+                Get on Android
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="box2">
+          <img
+            class="box2img"
+            src="./multimedia/pexels-ketut-subiyanto-4350099.avif"
+            alt=""
+            width="500px"
+          />
+          <div class="frm1">
+            <img
+              class="opa"
+              src="./multimedia/Frame 80.png"
+              alt=""
+              width="230px"
+            />
+          </div>
+          <div class="frm2">
+            <img
+              src="./multimedia/Frame 79.png"
+              alt=""
+              width="200px"
+              height="70px"
+            />
+          </div>
+          <div class="frm3">
+            <img
+              src="./multimedia/Frame 1020.png"
+              alt=""
+              width="180px"
+              height="70px"
+            />
+          </div>
+          <div class="frm4">
+            <img src="./multimedia/Frame 78.png" alt="" width="230px" />
+          </div>
+          <div class="frm5">
+            <img src="./multimedia/Frame 18.png" alt="" width="230px" />
+          </div>
+          <div class="frm6">
+            <img src="./multimedia/Frame 82.png" alt="" width="230px" />
+          </div>
+        </div>
+      </div>
+
+      <div class="subflex">
+        <div class="sub1">
+          <img src="./multimedia/securitylock.svg" alt="" />
+        </div>
+        <div class="sub2">
+          <h1>Your security is our priority</h1>
+          <p>
+            PiggyVest uses the highest level of Internet Security and it is
+            secured by 256 bits SSL
+          </p>
+          <p>
+            security encryption to ensure that your information is completely
+            protected from fraud.
+          </p>
+          <div class="sub3">
+            <div><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="sub3-pwf">
+              <a class="sub3-ppk">More on our security measures</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="sec">
+      <div class="cent-sec">
+        <h3 class="cent-sec1">Many ways to build your savings</h3>
+        <p class="cent-sec2">
+          Earn 12%-20% when you save with any of these Piggyvest plans.
+        </p>
+      </div>
+      <div class="flexbox">
+        <div class="flexsub1">
+          <div>
+            <div class="subox1">
+              <h5 class="subox-a">Automated Savings</h5>
+              <div class="yyy">
+                <p class="subox-b">Build a dedicated savings faster</p>
+                <p class="subox-b">on your terms, automatically or</p>
+                <p class="subox-b">manually.</p>
+              </div>
+
+              <div class="joy">
+                <div class="suboxflex2">
+                  <div class="subox-c">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div>Piggybank</div>
+                </div>
+                <div class="subox-img">
+                  <img 
+                    src="./multimedia/PB 18 Small.png"
+                    alt=""
+                    width="270px"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="subox2">
+              <h5 class="subox-a">Goal-oriented Savings</h5>
+              <div class="yyy">
+                <p class="subox-b">Reach all your savings goals faster.</p>
+                <p class="subox-b">Save towards multiple goals on</p>
+                <p class="subox-b">your own or with a group.</p>
+              </div>
+
+              <div class="joy">
+                <div class="suboxflex2">
+                  <div class="subox-c">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div>Target Savings</div>
+                </div>
+                <div class="subox-img">
+                  <img src="./multimedia/iphonw.avif" alt="" width="270px" />
+                </div>
+              </div>
+            </div>
+
+            <div class="subox3">
+              <h5 class="subox-a">Flex Dollar</h5>
+              <div class="yyy">
+                <p class="subox-b">Save and grow your money in</p>
+                <p class="subox-b">foreign currencies such as Dollars.</p>
+              </div>
+
+              <div class="joy mvp">
+                <div class="suboxflex2">
+                  <div class="subox-c">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div>Flex Dollar</div>
+                </div>
+                <div class="subox-img">
+                  <img src="./multimedia/iphone12.avif" alt="" width="270px" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexsub2">
+            <div class="subox4">
+              <h5 class="subox-a">Fixed Savings</h5>
+              <div class="yyy">
+                <p class="subox-b">Lock money away for a fixed</p>
+                <p class="subox-b">duration without having access to</p>
+                <p class="subox-b">it until maturity. It's like having a</p>
+                <p class="subox-b">custom fixed deposit.</p>
+              </div>
+
+              <div class="joy">
+                <div class="suboxflex2">
+                  <div class="subox-c">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div>Piggybank</div>
+                </div>
+                <div>
+                  <img
+                    class="subox-img"
+                    src="./multimedia/SL 22 Small.png"
+                    alt=""
+                    width="270px"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="subox5">
+              <h5 class="subox-a">Flex Naira</h5>
+              <div class="yyy">
+                <p class="subox-b">Save, transfer, manage, organise,</p>
+                <p class="subox-b">and withdraw your money at any</p>
+                <p class="subox-b">time.</p>
+              </div>
+
+              <div class="joy">
+                <div class="suboxflex2">
+                  <div class="subox-c">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div>Flex Naira</div>
+                </div>
+                <div class="subox-img">
+                  <img src="./multimedia/iPhone 14.avif" alt="" width="270px" />
+                </div>
+              </div>
+            </div>
+
+            <div class="subox6">
+              <h5 class="subox-a">HouseMoney</h5>
+              <div class="yyy">
+                <p class="subox-b">Plan for your rent and household</p>
+                <p class="subox-b">expenses</p>
+              </div>
+
+              <div class="joy mvp">
+                <div class="suboxflex2">
+                  <div class="subox-c">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div>House Money</div>
+                </div>
+                <div class="subox-img">
+                  <img
+                    src="./multimedia/iPhone 14 - 1.png"
+                    alt=""
+                    width="270px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="new-sec">
+      <div class="new-sec1">
+        <h1 class="new-sec2">Diverse ways to Invest</h1>
+        <p class="new-sec3">
+          Grow your money and invest for your future confidently.
+        </p>
+      </div>
+      <div class="new-box">
+        <div>
+          <h4 class="new-sec4">Earn Up to 35% returns</h4>
+          <p>Invest securely and confidently</p>
+          <p>on the go. Grow your money</p>
+          <p>confidently by investing in pre-</p>
+          <p>vetted investment</p>
+          <p>opportunities.</p>
+
+          <div class="box-arrow-flex">
+            <div class="box-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            <div class="qsd">Learn about Investments</div>
+          </div>
+        </div>
+
+        <div class="new-box-img">
+          <img src="./multimedia/iphoneInvest.avif" alt="" width="450px" />
+        </div>
+      </div>
+    </section>
+    <section class="sec-frame">
+      <div class="frame1">
+        <h2>Meet Our Saver of the Month</h2>
+        <p>
+          Every month, we shine a spotlight on one saver, asking them about
+          their
+        </p>
+        <p>savings culture and how Piggyvest has helped them.</p>
+      </div>
+      <div class="frame2">
+        <iframe
+          width="791"
+          height="445"
+          src="https://www.youtube.com/embed/2EnGMGxKuII"
+          title="Piggyvest Saver of the Month - HairsbyDinma"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="sec-frame-flex">
+        <div class="sec-frame2">
+          <img
+            src="./multimedia/Screenshot 2025-08-28 at 04.13.20.png"
+            alt="phone"
+            width="450px"
+          />
+        </div>
+        <div class="sec-frame3">
+          <div class="sec-cls">
+            <img class="cls" src="./multimedia/img1.jpeg" alt="" width="70px" />
+            <img class="cls" src="./multimedia/img2.jpeg" alt="" width="70px" />
+            <img class="cls" src="./multimedia/img3.jpeg" alt="" width="70px" />
+            <img
+              class="cls"
+              src="./multimedia/img4.jpeg"
+              alt=""
+              width="70px"
+              height="70px"
+            />
+            <span class="cls5"> 5pm+</span>
+          </div>
+
+          <div class="sec-cls-2">
+            <h2>Join 5+ million people who save</h2>
+            <h2>and invest with us</h2>
+          </div>
+
+          <div class="sec-btn">
+            <button class="sec-btn2" type="button">
+              <img
+                class="sec-btn-img"
+                src="./multimedia/apple-icon.svg"
+                alt=""
+              />
+              Get on iPhone
+            </button>
+            <button class="sec-btn2 go" type="button">
+              <img
+                class="sec-btn-img"
+                src="./multimedia/google-icon.svg"
+                alt=""
+              />
+              Get on Android
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot-sec1">
+      <h3>As featured in</h3>
+      <div class="med-flex">
+        <div class="med1">
+          <div class="foot-flex-item">
+            <img src="./multimedia/tclogo@2x.png" alt="" width="150px" />
+          </div>
+          <div class="foot-flex-item">
+            <img src="./multimedia/output.png" alt="" width="150px" />
+          </div>
+          <div class="foot-flex-item crunch">
+            <img src="./multimedia/brand1.png" alt="" width="150px" />
+          </div>
+        </div>
+        <div class="med2">
+          <div class="foot-flex-item">
+            <img
+              src="./multimedia/pym-removebg-preview.svg"
+              alt=""
+              width="100px"
+            />
+          </div>
+          <div class="foot-flex-item fast">
+            <img src="./multimedia/fast.svg" alt="" width="150px" />
+          </div>
+          <div class="foot-flex-item">
+            <img src="./multimedia/cio.svg" alt="" width="80px" />
+          </div>
+        </div>
+      </div>
+
+      <div class="foot-con">
+        <div class="foot-con1">
+          <div class="foot-con1-logo">
+            <img src="./multimedia/logo.svg" alt="" width="180px" />
+          </div>
+          <div class="foot-img1">
+            <img
+              src="./multimedia/compliance-378fe121550ceac55d0eeb8c5edac2e7.avif"
+              alt=""
+              width="120px"
+            />
+          </div>
+        </div>
+
+        <div class="foot-lst-flex">
+          <ul class="foot-lst">
+            <li>
+              <a><strong>Products</strong></a>
+            </li>
+            <li><a href="">Piggybank</a></li>
+            <li><a href="">Invest</a></li>
+            <li><a href="">Safelock</a></li>
+            <li><a href="">Target Savings</a></li>
+            <li><a href="">Flex Naira</a></li>
+            <li><a href="">Flex Dollar</a></li>
+          </ul>
+
+          <ul class="foot-lst">
+            <li>
+              <a><strong>Company</strong></a>
+            </li>
+            <li><a href="">About</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+
+          <ul class="foot-lst">
+            <li>
+              <a><strong>Legal</strong></a>
+            </li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Security</a></li>
+          </ul>
+        </div>
+
+        <div class="foot-con-4">
+          <div class="foot-img2">
+            <img src="./multimedia/faceboook.svg" alt="facebook" />
+            <img src="./multimedia/insta.svg" alt="instagram" />
+            <img src="./multimedia/twitter.svg" alt="X" />
+            <img src="./multimedia/tiktok.svg" alt="tiktok" />
+            <img src="./multimedia/youtube.svg" alt="youtube" />
+          </div>
+          <div class="foot-con-5">
+            <p>Tesmot house, Abdulrahman Okene close,</p>
+            <p class="foot-p">Victoria island, Lagos, Nigeria</p>
+            <p class="foot-z">contact@piggyvest.com</p>
+            <p class="foot-z">+2347009339339</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lst-foot">
+        <div class="foot-line"></div>
+        <div class="lst-foot2">
+          <p class="tyw">
+            Piggyvest (formerly piggybank.ng) is the leading online savings &
+            investing platform in Nigeria. For over 9 years, our customers have
+          </p>
+          <p class="tyw">
+            saved and invested billions of Naira that they would normally be
+            tempted to spend.
+          </p>
+          <p class="pyf">2016 - 2025 PiggyTech Global Limited - RC 1405222</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
