@@ -1090,11 +1090,13 @@ to { top: 25px
     
 }
 
+
     .subox1,.subox2,.subox3,.subox4,.subox5,.subox6{
-        min-width: 380px;
-        max-width: 380px;
+        min-width: 350px;
+        max-width: 350px;
         min-height: 52vh;
         max-height: 52vh;
+        margin:0 40px;
     }
     .subox-img>img{
         width: 200px;
